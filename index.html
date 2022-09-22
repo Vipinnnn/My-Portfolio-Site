@@ -21,9 +21,9 @@
     <div class="middle-container">
         <div class="profile">
           <img id="resumepic"src="./resumepic.jpeg" width="15%" alt="">
-          <h2>Hello.</h2>
-          <p>I'am Vipin,currently pursuing my BE in Computer Engineering From VESIT, University of Mumbai.
-            I'am really passionate about designing and developing websites.Here are some static websites that I have created. 
+          <h2>Hello,</h2>
+          <p>I'm Vipin Talreja,currently pursuing my BE in Computer Engineering From VESIT, University of Mumbai.
+            I'm passionate about designing and developing websites. Here are some of the projects that I have worked on. 
           </p>
         </div>
         <hr>
@@ -32,7 +32,8 @@
           <div class="project1-row">
             
             <h3>TinDog</h3>
-            <p><img class="" float="left" src="./tindog.jpg" width="15%" alt=""><a target="_blank" href="https://vipinnnn.github.io/tinDog/">TinDog</a> is a clone of Tinder but for dogs.</p>
+            <!-- <p><img class="" float="left" src="./tindog.jpg" width="15%" alt="">-->
+              <a target="_blank" href="https://vipinnnn.github.io/tinDog/">TinDog</a> is a clone of Tinder but for dogs.</p> 
           </div>
           <div class="project2-row">
             
@@ -53,20 +54,24 @@
         <hr>
         <div class="contact-me">
           <h2>Get In Touch</h2>
-          <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-          <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+          
           <a class="btn" href="mailto:vipintalreja.33@gmail.com">CONTACT ME</a>
         </div>
       </div>
       
       
       <div class="footer-container">
-        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-        <a class="footer-link" href="https://twitter.com/">Twitter</a>
-        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-        <p>© 2018 Vipin Talreja.</p>
+        <a class="footer-link" target="_blank" href="https://www.linkedin.com/in/vipintalreja/">LinkedIn</a>
+        <a class="footer-link" target="_blank" href="https://github.com/Vipinnnn">Github</a>
+        <a class="footer-link" target="_blank" href="https://twitter.com/">Twitter</a>
+        
+        <p>© <span id="year"></span> Vipin Talreja.</p>
       </div>
       
-    
+  <script>
+    const d = new Date();
+let year = d.getFullYear();
+document.getElementById("year").innerText=year
+  </script>  
 </body>
 </html>

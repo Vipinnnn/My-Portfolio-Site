@@ -23,18 +23,28 @@ body{
     text-align: center;
     font-family:  Helvetica, sans-serif;
 }
+.profile{
+    margin: 2% 11%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: cursive;
+
+}
+.profile h2,.profile p{
+    text-align: left;
+    margin-bottom: 0;
+    margin-left: 200px;
+    
+}
+.profile p{margin-top: 12px;}
 #resumepic{
    border-radius: 100%;
+   float: left;
 }
-.middle{
-    
-    
-
-   
-}
-.bottom{
-    
-    
+.projects{
+    text-align: left;
+    margin: 2% 11%;
+    font-size: 1.2rem;
 }
 .cloud1{
     position: absolute;
